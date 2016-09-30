@@ -1,0 +1,17 @@
+@keyframes pageswitch {
+    from {
+        opacity: 0
+	}
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes pageswitch {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}

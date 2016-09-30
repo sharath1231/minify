@@ -1,0 +1,41 @@
+@media only screen and (max-width:800px) {
+    html,body {
+        font-size: 12px
+    }
+    .inner {
+        margin: 0 15px
+    }
+}
+@media only screen and (max-width:640px) {
+    html,body {
+        font-size: 10px;
+		text-rendering: optimizeSpeed
+    }
+    .inner {
+        margin: 0
+    }
+    header .inner {
+        margin: 0 5px
+    }
+    header .menu li {
+        margin-left: 2em
+    }
+    header .menu li::before {
+        top: 0.8em;
+        left: -1.286em
+    }
+    div.caption {
+        font-size: 0.8em
+    }
+    .rowbox .rowtext {
+        padding: 0
+	}
+}
+@media only screen and (max-width:450px) {
+    div.caption {
+        font-size: 0.5em
+    }
+    pre {
+        font-size: 1.02em
+    }
+}
